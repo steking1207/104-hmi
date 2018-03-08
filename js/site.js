@@ -11,6 +11,16 @@ $(function(){
 
 		return false;
 	});
+
+});
+
+$(document).scroll(function() {
+  var y = $(this).scrollTop();
+  if (y > 100) {
+    $('.pop').fadeIn();
+  } else {
+    $('.pop').fadeOut();
+  }
 });
 
 AOS.init();

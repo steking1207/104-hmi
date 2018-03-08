@@ -121,7 +121,7 @@ hr {
   font-size: 20px;
   line-height: 1.2; }
 
-.btn-primary-lt:hover, .btn-primary-lt:focus, .btn-primary-lt:active {
+.btn-rounded:hover, .btn-rounded:focus, .btn-rounded:active, .btn-primary-lt:hover, .btn-primary-lt:focus, .btn-primary-lt:active {
   background: #000; }
 
 #kv .container-fluid {
@@ -138,28 +138,27 @@ hr {
     margin-top: -30px; } }
 
 #s1 .container-fluid {
-  background: url(../images/desktop//s1-bg.png) center 0 no-repeat;
-  background-size: cover; }
+  background: url(../images/desktop//s1-bg.jpg) center 0 no-repeat;
+  background-size: contain; }
 
 #s2 .container-fluid {
-  background: url(../images/desktop//s2-bg.png) center 0 no-repeat;
+  background: url(../images/desktop//s2-bg.jpg) center 0 no-repeat;
   background-size: cover; }
 
 @keyframes aniFade {
-  0% {
-    opacity: 0; }
-  20% {
+  0%,20%,80%,100% {
     opacity: 0; }
   50% {
-    opacity: 1; }
-  80% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
+    opacity: 1; } }
 .animate-fade {
-  -moz-animation: aniFade 3s infinite;
-  -webkit-animation: aniFade 3s infinite;
-  animation: aniFade 3s infinite; }
+  -moz-animation: aniFade 7s infinite ease-in-out;
+  -webkit-animation: aniFade 7s infinite ease-in-out;
+  animation: aniFade 7s infinite ease-in-out; }
+
+.pop {
+  position: fixed;
+  right: 20px;
+  top: 20px; }
 
 .bg-light {
   background-color: #ebebeb !important; }
