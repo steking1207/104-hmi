@@ -145,14 +145,14 @@ hr {
   background-size: cover; }
 
 @keyframes aniFade {
-  0%,20%,80%,100% {
+  0%,100% {
     opacity: 0; }
   50% {
     opacity: 1; } }
 .animate-fade {
-  -moz-animation: aniFade 7s infinite ease-in-out;
-  -webkit-animation: aniFade 7s infinite ease-in-out;
-  animation: aniFade 7s infinite ease-in-out; }
+  -moz-animation: aniFade 1s infinite ease-in-out;
+  -webkit-animation: aniFade 1s infinite ease-in-out;
+  animation: aniFade 1s infinite ease-in-out; }
 
 .pop {
   position: fixed;
