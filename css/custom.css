@@ -138,8 +138,7 @@ hr {
     margin-top: -30px; } }
 
 #s1 .container-fluid {
-  background: url(../images/desktop//s1-bg.jpg) center 0 no-repeat;
-  background-size: contain; }
+  background: url(../images/desktop//s1-bg.jpg) center 0 no-repeat; }
 
 #s2 .container-fluid {
   background: url(../images/desktop//s2-bg.jpg) center 0 no-repeat;
