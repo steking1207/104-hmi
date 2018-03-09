@@ -16,7 +16,7 @@ $(function(){
 
 $(document).scroll(function() {
   var y = $(this).scrollTop();
-  if (y > 100) {
+  if (y > 700) {
     $('.pop').fadeIn();
   } else {
     $('.pop').fadeOut();

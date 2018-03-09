@@ -158,7 +158,12 @@ hr {
 .pop {
   position: fixed;
   right: 20px;
-  top: 20px; }
+  top: 110px; }
+@media (max-width: 1199.98px) {
+  .pop {
+    right: -90px; }
+  .pop img {
+    width: 50%; } }
 
 .bg-light {
   background-color: #ebebeb !important; }
