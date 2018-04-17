@@ -144,15 +144,25 @@ hr {
   background: url(../images/desktop//s2-bg.jpg) center 0 no-repeat;
   background-size: cover; }
 
+@keyframes aniDelay {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+.animate-delay {
+  -moz-animation: aniDelay 6s infinite ease-in-out;
+  -webkit-animation: aniDelay 6s infinite ease-in-out;
+  animation: aniDelay 6s infinite ease-in-out; }
+
 @keyframes aniFade {
   0%,100% {
     opacity: 0; }
   50% {
     opacity: 1; } }
 .animate-fade {
-  -moz-animation: aniFade 1s infinite ease-in-out;
-  -webkit-animation: aniFade 1s infinite ease-in-out;
-  animation: aniFade 1s infinite ease-in-out; }
+  -moz-animation: aniFade 3s infinite ease-in-out;
+  -webkit-animation: aniFade 3s infinite ease-in-out;
+  animation: aniFade 3s infinite ease-in-out; }
 
 .pop {
   position: fixed;
