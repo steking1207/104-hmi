@@ -23,6 +23,9 @@ hr {
 .text-dark {
   color: #000; }
 
+.table-borderless th, .table-borderless td, .table-borderless thead th, .table-borderless tbody + tbody {
+  border: 0; }
+
 .menu .h6 {
   font-size: 20px;
   color: #d72a1a;
