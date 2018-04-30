@@ -129,10 +129,10 @@ hr {
 
 #kv .container-fluid {
   padding: 130px 0 170px 0;
-  background: url(../images/desktop//kv-bg.jpg) center 0 no-repeat;
+  background: url(../images/desktop/kv-bg.jpg) center 0 no-repeat;
   background-size: cover; }
 #kv .kv-title {
-  background: url(../images/desktop//kv-title.png) no-repeat;
+  background: url(../images/desktop/kv-title.png) no-repeat;
   background-size: contain; }
 #kv .slogan {
   margin-top: -50px; }
@@ -141,10 +141,10 @@ hr {
     margin-top: -30px; } }
 
 #s1 .container-fluid {
-  background: url(../images/desktop//s1-bg.jpg) center 0 no-repeat; }
+  background: url(../images/desktop/s1-bg.jpg) center 0 no-repeat; }
 
 #s2 .container-fluid {
-  background: url(../images/desktop//s2-bg.jpg) center 0 no-repeat;
+  background: url(../images/desktop/s2-bg.jpg) center 0 no-repeat;
   background-size: cover; }
 
 @keyframes aniDelay {
@@ -170,7 +170,8 @@ hr {
 .pop {
   position: fixed;
   right: 20px;
-  top: 110px; }
+  top: 110px;
+  z-index: 10; }
 @media (max-width: 1199.98px) {
   .pop {
     right: -90px; }

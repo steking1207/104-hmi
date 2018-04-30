@@ -1,0 +1,33 @@
+/* ==========================================================================
+   Mixin
+   ========================================================================== */
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Path */
+#desktop {
+  background: #fff; }
+#desktop .s1 .bg-line {
+  background-image: url(../images/inpage1/s1-line-desktop.png); }
+#desktop .s2 {
+  margin: -50px 0 -55px; }
+#desktop .join {
+  position: relative;
+  padding-bottom: 50px;
+  background: url(../images/inpage2/bg-join.jpg) no-repeat center bottom;
+  background-size: cover; }
+#desktop .join .slogan {
+  margin-bottom: -20px; }
+#desktop .join .col-6 {
+  position: relative;
+  z-index: 1; }
+#desktop .join .join-cta {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 55%;
+  z-index: 0;
+  transform: translate(0, -50%); }
+
+#mobile .kv {
+  margin-top: -10px; }

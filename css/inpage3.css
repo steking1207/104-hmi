@@ -1,0 +1,26 @@
+/* ==========================================================================
+   Mixin
+   ========================================================================== */
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+/* Path */
+#desktop .container {
+  max-width: 1100px; }
+#desktop img {
+  position: relative;
+  z-index: 2; }
+#desktop img.pic {
+  z-index: 1; }
+#desktop .s1 {
+  margin-top: 80px; }
+#desktop .s1 .pic {
+  margin-top: -245px; }
+#desktop .s2 {
+  margin-top: -250px; }
+#desktop .s3 {
+  background: url(../images/inpage3/bg-worldmap.png) no-repeat center 0; }
+#desktop .s3 .pic {
+  margin-top: -310px; }
+#desktop .s4 {
+  margin-top: -140px; }
