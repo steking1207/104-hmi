@@ -33,6 +33,8 @@ hr {
 .menu span {
   font-size: 18px;
   color: #000; }
+.menu li.list-inline-item {
+  margin-right: -4px !important; }
 .menu li:hover span, .menu li:focus span, .menu li:active span {
   color: #d72a1a; }
 .menu li.active {

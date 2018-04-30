@@ -29,15 +29,17 @@ section.section-video-back {
 
 .video-container {
   overflow: hidden;
-  padding-bottom: 56.25%;
   position: relative;
   height: 0;
+  padding-bottom: 56.25%;
   background: transparent; }
 
 .video-container iframe {
   position: absolute;
   left: 0;
+  right: 0;
   top: 0;
+  bottom: 0;
   width: 100%;
   height: 100%; }
 
@@ -48,7 +50,7 @@ section.section-video-back {
   bottom: 0;
   right: 0;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.8);
   background-image: url(../images/inpage1/bg-title.png);
   background-position: center 65%;
   background-repeat: no-repeat;
