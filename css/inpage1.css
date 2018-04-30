@@ -27,6 +27,13 @@ section.section-video-back {
   overflow: hidden;
   height: 726px; }
 
+.video-container {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  background: transparent; }
+
 .video-container iframe {
   position: absolute;
   left: 0;
