@@ -8,7 +8,7 @@
 #desktop {
   background: #fff; }
 #desktop .kv {
-  margin-top: -28px; }
+  margin-top: -20px; }
 #desktop .s1 .bg-line {
   background-image: url(../images/inpage1/s1-line-desktop.png); }
 #desktop .s2 {
@@ -30,6 +30,11 @@
   top: 55%;
   z-index: 0;
   transform: translate(0, -50%); }
+#desktop .join .join-cta.btn-cta {
+  z-index: 3;
+  margin: 0 auto;
+  width: 358px;
+  height: 358px; }
 
 #mobile .kv {
   margin-top: -10px; }
