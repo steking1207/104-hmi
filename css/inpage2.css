@@ -7,6 +7,8 @@
 /* Path */
 #desktop {
   background: #fff; }
+#desktop .kv {
+  margin-top: -28px; }
 #desktop .s1 .bg-line {
   background-image: url(../images/inpage1/s1-line-desktop.png); }
 #desktop .s2 {
